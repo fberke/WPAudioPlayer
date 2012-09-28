@@ -1,0 +1,38 @@
+DEVELOPMENT HISTORY
+
+0.4.0 fberke 2012-09-28
++ release to Github
+0.3.8 fberke 2012-09-28
++ prevent accidental deletion of files:
+  files can only be deleted when in edit mode, not from the overview
+  in overview, only the DB entry for this file is removed
++ polished backend (esp. modify_mp3.php)
++ added CSS files to get rid of inline styles
++ added separate CHANGELOG file
++ added separate README file
++ minor DB changes to save memory
+- remove image folder and invoke icons from current BE theme
+v0.3.7 (fberke, 2012-09-28)
+- Remove path from filename for download list
++ Added HTML5 fallback in case Flash is not there or disabled in your browser (e.g. mobile device)
+  As HTML <audio> doesn't (yet) support playlists, a player instance is displayed for each song
+  Many browsers do not support MP3, others don't support OGG - intelligent fallback might come
+  at a later stage - YMMV
+v0.3.6 (fberke, 2012-09-27)
++ fixed some minor glitches on Lepton CMS
++ include Lepton's class.secure.php call to module files
+v0.3.5 (fberke, 2011-08-06)
++ minor code improvements
+- remove some superfluous comments (cleaning up)
+v0.31 (fberke, 08/05/2011)
++ add optional Piwik tracking
+v0.30 (fberke, 06/29/2010)
++ add 'autoplay' functionality
++ add 'download' functionality
+v0.20 (fberke, 06/27/2010)
++ frontend output optimized
++ frontend output contains classes to apply a CSS
+- remove unused database entries and corresponding php codes
+- remove multi-language support, will be added in future versions
+v0.10 (fberke, 06/21/2010)
++ initial release of the wpaudioplayer module (didn't work properly)

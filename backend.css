@@ -1,0 +1,63 @@
+/* Styles for WPAudioPlayer backend */
+
+/* common classes */
+
+table {
+	width: 100%;
+}
+table thead tr {
+	background-color: #ccc;
+}
+table th {
+	padding: 5px 3px;
+}
+table tbody tr:nth-child(n+1) {
+	background-color: transparent;
+}
+table tbody tr:nth-child(2n+2) {
+	background-color: #eee;
+}
+table tbody tr:hover {
+	background-color: #d1c4fa;
+}
+table tbody td {
+	text-align: center;
+	vertical-align: top;
+}
+table tbody tr td:first-child {
+	text-align: left;
+}
+table td a {
+	display: block;
+}
+
+.buttonrow {
+	clear:left;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.buttonrow button {
+	float: left;
+}
+.buttonrow button:last-child {
+	float: right;
+}
+
+/* modify_mp3.php */
+label {
+	clear: left;
+	float: left;
+	padding: 8px 0;
+	width: 10em;
+}
+input, select, textarea {
+	float: left;
+	width: 350px;
+}
+fieldset {
+	padding: 5px;
+	margin-top: 5px;
+}
+legend {
+	padding: 3px;
+}

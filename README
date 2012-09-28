@@ -1,0 +1,29 @@
+WP Audio Player
+
+WordPress Audio Player module for WebsiteBaker or Lepton CMS
+
+The wpaudioplayer module provides the well-known flash-based audio player from
+WordPress for WebseiteBaker or Lepton CMS.
+
+WPAudioPlayer can appear in several sections on a page with just one song or
+a playlist. You can override the information from the MP3 tags with you own,
+you can set songs to autostart and you can configure whether a download list
+is being shown or not.
+In the general overview, you can quickly remove files from playlists - deletion
+is for safety reasons only possible when editing the file's settings.
+
+WPAudioPlayer comes with built-in HTML5 fallback. However, this may not always
+provide you with the expected results. If no player elements are shown this
+means your browser doesn't support this fallback solution. If player elements
+are shown but refuse to play means that your browser doesn't support the media
+type, e.g. MP3.
+
+As a special feature you can track your player calls through Piwik. Just create
+a goal in your Piwik installation and enter that goal id in WPAudioPlayer backend
+- it's as easy as that.
+
+WPAudioPlayer should do fine in both WebsiteBaker, and Lepton CMS. If you encounter
+problems with WPAudioPlayer, please tell me which CMS you use and provide me
+with the version number.
+
+Thank you and have fun :-)
